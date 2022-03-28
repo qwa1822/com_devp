@@ -8,12 +8,14 @@ public class Test {
 
         Scanner sc=new Scanner(System.in);
 
-        String all="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int i=sc.nextInt();
-        int c=sc.nextInt();
-
-        if(i>=0 && i<=26 && c>=0){
-            System.out.println(all.length()<c?"Error":all.substring(i-1,i-1+c));
+        String s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        if(a >= 1 && a <= 26 && a+b<= 27) {
+            System.out.println(b > s.length() ? "Error" : s.substring(a - 1, a - 1 + b));
+        }
+        else{
+            System.out.println("Error");
         }
 
     }
