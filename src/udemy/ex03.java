@@ -1,39 +1,42 @@
 package udemy;
 
+import sun.nio.cs.ext.MacHebrew;
+
 import java.util.Scanner;
 
 public class ex03 {
 
 
     public static void main(String[] args) {
+          int g;
+        System.out.println(g=sum(15,25));
+        int d;
+        System.out.println(d=sum(15,25,35));
 
 
 
-
-
-        printMultiple(7);
-        printMultiple();
-
-    //메소드 오버로딩
-
-
+        int calculator=calculator_Max(g,d);
+        System.out.println(calculator);
 
     }
 
 
-
-
-    static void printMultiple(int n){
-        for(int i=0; i<=10; i++){
-            System.out.printf("%d* %d = %d",n,i,n*i).println();
-        }
+    static int sum(int firstNumber,int secondNumber){
+        int sum=firstNumber+secondNumber;
+        return sum;
     }
 
-    static void printMultiple(){
-        for(int i=0; i<=10; i++){
-            System.out.printf("%d* %d = %d",5,i,5*i).println();
-        }
+    static int sum(int firstNumber,int secondNumber,int thirdNumber){
+        int sum=firstNumber+secondNumber+thirdNumber;
+        return sum;
     }
+
+
+    static int calculator_Max(int a,int b){
+        int n=Math.max(a,b);
+        return n;
+    }
+
 
 
 }
