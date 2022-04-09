@@ -13,6 +13,14 @@ public class Exam01 {
 
 
         }
+        System.out.println("---------역순--------");
+
+        for(int i=0; i<5; i++){
+            for(int j=5; j>i; j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
         for(int i=0; i<5; i++){
@@ -33,6 +41,8 @@ public class Exam01 {
         for(int i=0; i<nums.length; i++){
             System.out.println(nums[i]);
         }
+
+        System.out.println("==3===");
 
 
         for(int i=0; i<8;  i++){
