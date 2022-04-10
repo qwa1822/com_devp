@@ -1,4 +1,4 @@
-package Java;
+package Java.ch09;
 
 public class UserInfoTest {
     public static void main(String[] args) {
