@@ -10,11 +10,14 @@ public class BackJon2439 {
         int N = in.nextInt();
         in.close();
 
-        for (int i = 1; i <= N; i++) {
-            for (int j = 1; j <= N - i; j++) {
+
+        for(int i=1; i<=N; i++){
+            for(int j=1; j<=N-i; j++){
                 System.out.print(" ");
             }
-            for (int k = 0; k < i; k++) {
+
+
+            for(int k=0; k<i; k++){
                 System.out.print("*");
             }
             System.out.println();
