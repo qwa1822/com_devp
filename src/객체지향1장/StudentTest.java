@@ -1,7 +1,9 @@
-package 객체지향;
+package 객체지향1장;
 
 public class StudentTest {
     public static void main(String[] args) {
+
+        int num=10;
 
         Student studentLee=new Student();
 
@@ -15,7 +17,7 @@ public class StudentTest {
         Student studentKim=new Student();
 
         studentKim.studentID=54321;
-        studentKim.studentName="Kim";
+        studentKim.StudentName="Kim";
         studentKim.address="경기도 성남시";
 
 

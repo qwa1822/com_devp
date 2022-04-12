@@ -1,4 +1,4 @@
-package 객체지향;
+package 객체지향1장;
 
 public class FunctionTest {
     public static int addNum(int num1, int num2) {

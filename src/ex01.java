@@ -3,47 +3,10 @@ import java.util.Scanner;
 public class ex01 {
     public static void main(String[] args) {
 
-        Scanner scanner=new Scanner(System.in);
-        int month=scanner.nextInt();
+        long value=1000*60*60*24*365*2;
 
-
-
-        int day;
-        switch (month){
-            case 1: case 3: case 7: case 8: case 10: case 12:
-                day=31;
-                break;
-            case 2:
-                day=28;
-                 break;
-
-            case 4:
-                day=30;
-                break;
-            case 5:
-                day=31;
-                break;
-            case 6:
-                day=30;
-                break;
-
-
-            case 9:
-                day=31;
-                break;
-
-            case 11:
-                day=30;
-                break;
-
-            default:
-                System.out.println("존재하지 않는 달입니다.");
-                day=-1;
-
-
-        }
-
-        System.out.println(month+"월은"+day+"일 입니다");
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(value);
 
 
     }
