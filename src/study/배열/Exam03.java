@@ -1,4 +1,4 @@
-package study.삼항연산자;
+package study.배열;
 
 import java.util.Scanner;
 
