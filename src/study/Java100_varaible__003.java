@@ -13,8 +13,9 @@ public class Java100_varaible__003 {
 
         System.out.println(str.length());
 
+        
+        //정수-->문자열로 변환-->자릿수 구하기
         String stra = String.valueOf(a);
-
         System.out.println(stra.length());
 
 
