@@ -1,4 +1,4 @@
-package study.배열;
+package study.IF.for문;
 
 import java.util.Scanner;
 

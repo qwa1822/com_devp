@@ -1,4 +1,4 @@
-package study.배열;
+package study.IF.for문;
 
 public class Java100_exam {
     public static void main(String[] args) {
