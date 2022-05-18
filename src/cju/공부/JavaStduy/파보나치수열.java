@@ -27,11 +27,11 @@ public class 파보나치수열 {
 
         while(w<18){
 
-             c=a+b;
-             a=b;
-             b=c;
-             arrNum[w+2]=c;
-             w++;
+            c=a+b;
+            a=b;
+            b=c;
+            arrNum[w+2]=c;
+            w++;
         }
 
         for (int i = 0; i < arrNum.length; i++) {
