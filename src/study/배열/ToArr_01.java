@@ -25,5 +25,17 @@ public class ToArr_01 {
         System.out.println(asia_nations.length);  // 1차원배열 2개를 가지고있어서 2라고나옴
         System.out.println(asia_nations[0].length);  //3
         System.out.println(asia_nations[1].length); //3
+
+        //[7]: 반복문을 사용한 String 2차원 배열 값 출력
+        //바깥 for문
+        for (int i = 0; i < asia_nations.length; i++) {
+            for (int j = 0; j < asia_nations[i].length; j++) {  //안쪽 for문
+                System.out.println(asia_nations[i][j] + " "); // 한국 중국 일본
+                //태국 베트남 필리핀
+
+
+            }
+        }
+
     }
 }
