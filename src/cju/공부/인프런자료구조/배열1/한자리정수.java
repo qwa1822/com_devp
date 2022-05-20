@@ -46,7 +46,7 @@ public class 한자리정수 {
 
 
             //참이면
-            if(isPrime && val>max)
+            if(isPrime && val>1 &&  val>max)
                 max=val;
             
 
